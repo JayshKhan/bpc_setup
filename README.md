@@ -7,7 +7,7 @@
 ```bash
 mkdir -p ~/ws_bpc/src
 cd ~/ws_bpc/src
-git clone [https://github.com/opencv/bpc.git](https://github.com/opencv/bpc.git)
+git clone https://github.com/opencv/bpc.git
 ```
 
 ## Build
@@ -19,10 +19,10 @@ git clone [https://github.com/opencv/bpc.git](https://github.com/opencv/bpc.git)
 ```bash
 ### Pull Baseline Solution Code ###
 cd bpc/
-wget [https://storage.googleapis.com/akasha-public/IPBC/baseline_solution/v1/models.zip](https://storage.googleapis.com/akasha-public/IPBC/baseline_solution/v1/models.zip)
+wget https://storage.googleapis.com/akasha-public/IPBC/baseline_solution/v1/models.zip
 unzip models.zip
 rm models.zip
-git clone [https://github.com/CIRP-Lab/bpc_baseline](https://github.com/CIRP-Lab/bpc_baseline)
+git clone https://github.com/CIRP-Lab/bpc_baseline
 ```
 
 ### Build the ibpc_pose_estimator
